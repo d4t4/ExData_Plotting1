@@ -16,7 +16,7 @@ dateTime <- paste(load_data$Date, load_data$Time)
 weekDay <- strptime(dateTime, format ='%d/%m/%Y %H:%M:%S')
 str(weekDay)
 
-png("plot2.png", width =480, height=480)
+png("plot2.png", width=480, height=480)
 
 
 plot(weekDay, load_data$Global_active_power,
